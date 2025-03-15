@@ -1,0 +1,584 @@
+/* font-family: neue-haas-grotesk-display, sans-serif; */
+/* font-family: "ibm-plex-mono", sans-serif; */
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+/* main two column layout */
+
+body {
+    width: 95%;
+    margin: 25px auto;
+}
+
+.section {
+    display: grid;
+    grid-template-columns: 0.3fr 1fr;
+    gap: 30px;
+}
+
+/* sidebar header */
+
+hr {
+    border-bottom: 1.5px solid #000;
+    border-top: 0px solid #000;
+}
+
+.sidebar {
+    height: 25vh;
+    position: sticky;
+    top: 25px;
+    position: -webkit-sticky;
+}
+
+.sidebarheadings {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 8px;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #000;
+    font-family: "Neue Haas Unica W1G";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    height: 20px;
+    line-height: 20px;
+}
+
+.logo a:hover {
+    text-decoration: none;
+    color: #4FA061;
+    font-family: "Neue Haas Unica W1G";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    height: 20px;
+    line-height: 20px;
+}
+
+.mainheadingright {
+    color: #000;
+    text-align: right;
+    font-family: "IBM Plex Mono";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    height: 20px;
+    line-height: 20px;
+}
+
+.mainheadingrightnav {
+    color: #000;
+    text-align: right;
+    font-family: "IBM Plex Mono";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    height: 20px;
+    line-height: 20px;
+}
+
+
+/* main header */
+
+h2 {
+    color: #000;
+    font-family: "Neue Haas Unica W1G";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    height: 20px;
+    line-height: 20px;
+}
+
+
+.mainheadings {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 8px;
+}
+
+.mainheadingleft {
+    color: #000;
+    font-family: "Neue Haas Unica W1G";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    height: 20px;
+    line-height: 20px;
+}
+
+.mainheadingright {
+    color: #000;
+    text-align: right;
+    font-family: "IBM Plex Mono";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    height: 20px;
+    line-height: 20px;
+}
+
+/* nav */
+
+nav {
+    margin: 25px;
+    margin-left: 0px;
+    text-align: left;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000;
+    text-align: right;
+    font-family: "IBM Plex Mono";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+nav a:hover {
+    text-decoration: none;
+    color: #4FA061;
+    text-align: right;
+    font-family: "IBM Plex Mono";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+nav ul {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+#back-to-top {
+    text-decoration: none;
+    position: fixed;
+    color: #000;
+    font-family: "IBM Plex Mono";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    bottom: 20px;
+    left: auto;
+}
+
+#back-to-top:hover {
+    text-decoration: none;
+    position: fixed;
+    color: #4FA061;
+    font-family: "IBM Plex Mono";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    bottom: 20px;
+    left: auto;
+}
+
+/* selected works */
+
+.selected_works {
+    width: 95%;
+    margin: 25px auto;
+}
+
+.columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    margin: 25px auto;
+}
+
+img {
+    width: 100%;
+}
+
+h1 {
+    color: #000;
+    font-family: "IBM Plex Mono";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 10px;
+}
+
+h1:hover {
+    color: #4FA061;
+    font-family: "IBM Plex Mono";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 10px;
+}
+
+p {
+    color: #000;
+    font-family: "IBM Plex Mono";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 25px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #4FA061;
+}
+
+/* aboutpage */
+
+.about {
+    color: #000;
+    font-family: "Neue Haas Unica W1G";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+
+.about a {
+    text-decoration: none;
+    color: #000;
+    font-family: "Neue Haas Unica W1G";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.about a:hover {
+    color: #4FA061;
+    font-family: "Neue Haas Unica W1G";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.aboutme ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.aboutme ul li a {
+    text-decoration: none;
+    color: #000;
+    font-family: "Neue Haas Unica W1G";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.aboutme ul li a:hover {
+    color: #4FA061;
+    font-family: "Neue Haas Unica W1G";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* archive */
+
+.archive {
+    width: 100%;
+    margin: 25px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: column;
+    width: 32.5%;
+}
+
+.gallery img {
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+/* workpage */
+
+.workpage {
+    width: 100%;
+    margin: 25px auto;
+}
+
+.heroimage {
+    padding-bottom: 25px;
+}
+
+.list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    padding-bottom: 30px;
+}
+
+.list ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.list ul li {
+    color: #000;
+    font-family: "IBM Plex Mono";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.listright ul li a {
+    color: #000;
+}
+
+.listright ul li a:hover {
+    color: #4FA061;
+}
+
+.description p {
+    color: #000;
+    font-family: "Neue Haas Unica W1G";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.process img {
+    padding-bottom: 10px;
+}
+
+.duo {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    object-fit: contain;
+}
+
+.duo img {
+    display: flex;
+    flex-direction: column;
+    width: 49.5%;
+    gap: 10px;
+    object-fit: contain;
+}
+
+.rgduo {
+    width: 100%;
+    margin: 25px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    object-fit: contain;
+}
+
+.rgduo img {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    gap: 10px;
+    padding-bottom: 20px;
+    object-fit: contain;
+}
+
+
+.trio {
+    width: 100%;
+    margin: 25px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.trio img {
+    display: flex;
+    flex-direction: column;
+    width: 10%;
+}
+
+#mobile {
+    display: inline;
+}
+
+#desktop {
+    display: none;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding-left: 1em;
+    width: 80%;
+}
+
+.button {
+    background-color: #fff;
+    border: 2px solid #000;
+    color: #000;
+    font-family: "IBM Plex Mono";
+    padding: 20px 34px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 0px 0px 25px 2px;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: #4FA061;
+    border: 2px solid #4FA061;
+    color: #fff;
+    font-family: "IBM Plex Mono";
+    padding: 20px 34px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 0px 0px 25px;
+    cursor: pointer;
+}
+
+@media (max-width:900px) {
+
+    body {
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .section {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+    }
+
+    #mobile {
+        display: none;
+    }
+
+    #desktop {
+        display: inline;
+    }
+
+    nav {
+        grid-area: nav;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        text-align: right;
+        margin: 0;
+    }
+
+    nav a {
+        text-align: right;
+        font-family: "IBM Plex Mono";
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        height: 20px;
+        line-height: 20px;
+    }
+
+    nav ul {
+        display: none;
+
+    }
+
+    #back-to-top {
+        text-decoration: none;
+        position: fixed;
+        color: #000;
+        font-family: "IBM Plex Mono";
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        bottom: 20px;
+        left: auto;
+    }
+
+    #back-to-top:hover {
+        text-decoration: none;
+        position: fixed;
+        color: #4FA061;
+        font-family: "IBM Plex Mono";
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        bottom: 20px;
+        left: auto;
+    }
+
+
+    .sidebar {
+        height: 50px;
+        position: relative;
+        position: -webkit-sticky;
+        flex: 1;
+    }
+
+    .mainheadingrightnav {
+        display: none;
+
+    }
+
+    .sidebarline {
+        display: none;
+    }
+
+    .fixed {
+        display: grid;
+        grid-template:
+            "logo nav"
+
+    }
+
+    . .logo {
+        grid-area: logo;
+        margin: auto;
+        justify-content: left;
+    }
+
+    .columns {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .archive {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .gallery {
+        width: 100%;
+    }
+
+    #back-to-top {
+        display: none;
+    }
+
+}
