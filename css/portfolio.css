@@ -602,3 +602,170 @@ font-family: ibm-plex-mono, sans-serif;
     }
 
 }
+
+@media (max-width:479px) {
+
+    body {
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .section {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+    }
+
+    #mobile {
+        display: none;
+    }
+
+    #desktop {
+        display: inline;
+    }
+
+    nav {
+        grid-area: nav;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        text-align: right;
+        margin: 0;
+        
+    }
+
+    nav a {
+        text-align: right;
+font-family: ibm-plex-mono, sans-serif;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 400;
+        height: 20px;
+        line-height: 20px;
+    }
+
+    nav ul {
+        display: none;
+
+    }
+
+    #back-to-top {
+        text-decoration: none;
+        position: fixed;
+        color: #000;
+font-family: ibm-plex-mono, sans-serif;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        bottom: 20px;
+        left: auto;
+    }
+
+    #back-to-top:hover {
+        text-decoration: none;
+        position: fixed;
+        color: #4FA061;
+font-family: ibm-plex-mono, sans-serif;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        bottom: 20px;
+        left: auto;
+    }
+
+
+    .sidebar {
+        height: 50px;
+        position: relative;
+    
+        flex: 1;
+    }
+
+    .mainheadingrightnav {
+        display: none;
+
+    }
+
+    .sidebarline {
+        display: none;
+    }
+
+    .fixed {
+        display: grid;
+        grid-template:
+            "logo nav nav"
+
+    }
+
+    . .logo {
+        grid-area: logo;
+        margin: auto;
+        justify-content: left;
+    }
+
+    .columns {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .archive {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .gallery {
+        width: 100%;
+    }
+
+    #back-to-top {
+        display: none;
+    }
+    
+    .logo a {
+    text-decoration: none;
+     color: #000;
+font-family: neue-haas-unica, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    height: 20px;
+    line-height: 20px;
+}
+
+.logo a:hover {
+    text-decoration: none;
+    color: #4FA061;
+    font-family: neue-haas-unica, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    height: 20px;
+    line-height: 20px;
+}
+
+.mainheadingright {
+    color: #000;
+    text-align: right;
+font-family: ibm-plex-mono, sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    height: 20px;
+    line-height: 20px;
+}
+
+    .mainheadingleft {
+    color: #000;
+font-family: neue-haas-unica, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    height: 20px;
+    line-height: 20px;
+}
+    
+}
+
