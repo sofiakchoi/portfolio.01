@@ -42,7 +42,7 @@ hr {
 .logo a {
     text-decoration: none;
     color: #000;
-font-family: neue-haas-grotesk-text, sans-serif;
+font-family: neue-haas-unica, sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 600;
@@ -53,10 +53,10 @@ font-family: neue-haas-grotesk-text, sans-serif;
 .logo a:hover {
     text-decoration: none;
     color: #4FA061;
-font-family: neue-haas-grotesk-text, sans-serif;
+font-family: neue-haas-unica, sans-serif;
     font-size: 16px;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 600;
     height: 20px;
     line-height: 20px;
 }
