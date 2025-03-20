@@ -366,6 +366,15 @@ font-family: neue-haas-unica, sans-serif;
     line-height: normal;
 }
 
+.bold p {
+    color: #000;
+font-family: neue-haas-unica, sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
 .process img {
     padding-bottom: 10px;
 }
