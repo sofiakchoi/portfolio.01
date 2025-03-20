@@ -42,7 +42,7 @@ hr {
 .logo a {
     text-decoration: none;
     color: #000;
-    font-family: "Neue Haas Unica W1G";
+font-family: neue-haas-unica, sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -53,7 +53,7 @@ hr {
 .logo a:hover {
     text-decoration: none;
     color: #4FA061;
-    font-family: "Neue Haas Unica W1G";
+font-family: neue-haas-unica, sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -88,7 +88,7 @@ hr {
 
 h2 {
     color: #000;
-    font-family: "Neue Haas Unica W1G";
+font-family: neue-haas-unica, sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -105,7 +105,7 @@ h2 {
 
 .mainheadingleft {
     color: #000;
-    font-family: "Neue Haas Unica W1G";
+font-family: neue-haas-unica, sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -244,7 +244,7 @@ a:hover {
 
 .about {
     color: #000;
-    font-family: "Neue Haas Unica W1G";
+font-family: neue-haas-unica, sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -256,7 +256,7 @@ a:hover {
 .about a {
     text-decoration: none;
     color: #000;
-    font-family: "Neue Haas Unica W1G";
+font-family: neue-haas-unica, sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -265,7 +265,7 @@ a:hover {
 
 .about a:hover {
     color: #4FA061;
-    font-family: "Neue Haas Unica W1G";
+font-family: neue-haas-unica, sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -280,7 +280,7 @@ a:hover {
 .aboutme ul li a {
     text-decoration: none;
     color: #000;
-    font-family: "Neue Haas Unica W1G";
+font-family: neue-haas-unica, sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -289,7 +289,7 @@ a:hover {
 
 .aboutme ul li a:hover {
     color: #4FA061;
-    font-family: "Neue Haas Unica W1G";
+font-family: neue-haas-unica, sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -359,7 +359,7 @@ a:hover {
 
 .description p {
     color: #000;
-    font-family: "Neue Haas Unica W1G";
+font-family: neue-haas-unica, sans-serif;
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
