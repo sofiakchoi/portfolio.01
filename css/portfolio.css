@@ -64,7 +64,7 @@ font-family: neue-haas-unica, sans-serif;
 .mainheadingright {
     color: #000;
     text-align: right;
-    font-family: "IBM Plex Mono";
+font-family: ibm-plex-mono, sans-serif;
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
@@ -75,7 +75,7 @@ font-family: neue-haas-unica, sans-serif;
 .mainheadingrightnav {
     color: #000;
     text-align: right;
-    font-family: "IBM Plex Mono";
+font-family: ibm-plex-mono, sans-serif;
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
@@ -116,7 +116,7 @@ font-family: neue-haas-unica, sans-serif;
 .mainheadingright {
     color: #000;
     text-align: right;
-    font-family: "IBM Plex Mono";
+font-family: ibm-plex-mono, sans-serif;
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
@@ -136,7 +136,7 @@ nav a {
     text-decoration: none;
     color: #000;
     text-align: right;
-    font-family: "IBM Plex Mono";
+font-family: ibm-plex-mono, sans-serif;
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
@@ -146,7 +146,7 @@ nav a:hover {
     text-decoration: none;
     color: #4FA061;
     text-align: right;
-    font-family: "IBM Plex Mono";
+font-family: ibm-plex-mono, sans-serif;
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
@@ -161,7 +161,7 @@ nav ul {
     text-decoration: none;
     position: fixed;
     color: #000;
-    font-family: "IBM Plex Mono";
+font-family: ibm-plex-mono, sans-serif;
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
@@ -174,7 +174,7 @@ nav ul {
     text-decoration: none;
     position: fixed;
     color: #4FA061;
-    font-family: "IBM Plex Mono";
+font-family: ibm-plex-mono, sans-serif;
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
@@ -203,7 +203,7 @@ img {
 
 h1 {
     color: #000;
-    font-family: "IBM Plex Mono";
+font-family: ibm-plex-mono, sans-serif;
     font-size: 12px;
     font-style: normal;
     font-weight: 700;
@@ -213,7 +213,7 @@ h1 {
 
 h1:hover {
     color: #4FA061;
-    font-family: "IBM Plex Mono";
+font-family: ibm-plex-mono, sans-serif;
     font-size: 12px;
     font-style: normal;
     font-weight: 700;
@@ -223,7 +223,7 @@ h1:hover {
 
 p {
     color: #000;
-    font-family: "IBM Plex Mono";
+font-family: ibm-plex-mono, sans-serif;
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
@@ -342,7 +342,7 @@ font-family: neue-haas-unica, sans-serif;
 
 .list ul li {
     color: #000;
-    font-family: "IBM Plex Mono";
+font-family: ibm-plex-mono, sans-serif;
     font-size: 12px;
     font-style: normal;
     font-weight: 500;
@@ -439,7 +439,7 @@ form {
     background-color: #fff;
     border: 2px solid #000;
     color: #000;
-    font-family: "IBM Plex Mono";
+font-family: ibm-plex-mono, sans-serif;
     padding: 20px 34px;
     text-align: center;
     text-decoration: none;
@@ -452,7 +452,7 @@ form {
     background-color: #4FA061;
     border: 2px solid #4FA061;
     color: #fff;
-    font-family: "IBM Plex Mono";
+font-family: ibm-plex-mono, sans-serif;
     padding: 20px 34px;
     text-align: center;
     text-decoration: none;
@@ -495,7 +495,7 @@ form {
 
     nav a {
         text-align: right;
-        font-family: "IBM Plex Mono";
+font-family: ibm-plex-mono, sans-serif;
         font-size: 12px;
         font-style: normal;
         font-weight: 400;
@@ -512,7 +512,7 @@ form {
         text-decoration: none;
         position: fixed;
         color: #000;
-        font-family: "IBM Plex Mono";
+font-family: ibm-plex-mono, sans-serif;
         font-size: 12px;
         font-style: normal;
         font-weight: 400;
@@ -525,7 +525,7 @@ form {
         text-decoration: none;
         position: fixed;
         color: #4FA061;
-        font-family: "IBM Plex Mono";
+font-family: ibm-plex-mono, sans-serif;
         font-size: 12px;
         font-style: normal;
         font-weight: 400;
