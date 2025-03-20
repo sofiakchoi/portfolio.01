@@ -509,6 +509,7 @@ font-family: ibm-plex-mono, sans-serif;
         justify-content: space-between;
         text-align: right;
         margin: 0;
+        
     }
 
     nav a {
@@ -556,7 +557,7 @@ font-family: ibm-plex-mono, sans-serif;
     .sidebar {
         height: 50px;
         position: relative;
-        position: -webkit-sticky;
+    
         flex: 1;
     }
 
@@ -572,7 +573,7 @@ font-family: ibm-plex-mono, sans-serif;
     .fixed {
         display: grid;
         grid-template:
-            "logo nav"
+            "logo nav nav"
 
     }
 
