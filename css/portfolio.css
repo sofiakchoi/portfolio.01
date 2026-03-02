@@ -22,7 +22,7 @@ body {
 /* sidebar header */
 
 hr {
-    border-bottom: 1.5px solid #000;
+    border-bottom: 1px solid #000;
     border-top: 0px solid #000;
 }
 
@@ -122,6 +122,38 @@ font-family: ibm-plex-mono, sans-serif;
     font-weight: 400;
     height: 20px;
     line-height: 20px;
+}
+
+.desc {
+    color: #000;
+font-family: ibm-plex-mono, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+
+.desc a{
+    color: #000;
+font-family: ibm-plex-mono, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 25px;
+    margin-top: 10px;
+}
+
+.deschead {
+    color: #000;
+font-family: ibm-plex-mono, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
 }
 
 /* nav */
@@ -347,6 +379,14 @@ font-family: ibm-plex-mono, sans-serif;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+}
+
+.listleft ul li a{
+color: #000;
+}
+
+.listleft ul li a:hover{
+color: #4FA061;
 }
 
 .listright ul li a {
