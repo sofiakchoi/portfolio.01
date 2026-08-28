@@ -130,7 +130,7 @@ font-family: ibm-plex-mono, sans-serif;
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
-    line-height: normal;
+    line-height: 1.5em;
     margin-bottom: 0px;
     margin-top: 10px;
 }
@@ -172,6 +172,7 @@ font-family: ibm-plex-mono, sans-serif;
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
+    line-height: 2em;
 }
 
 nav a:hover {
@@ -197,7 +198,7 @@ font-family: ibm-plex-mono, sans-serif;
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
-    line-height: normal;
+    line-height: 2em;
     bottom: 20px;
     left: auto;
 }
@@ -210,7 +211,7 @@ font-family: ibm-plex-mono, sans-serif;
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
-    line-height: normal;
+    line-height: 2em;
     bottom: 20px;
     left: auto;
 }
@@ -239,7 +240,7 @@ font-family: ibm-plex-mono, sans-serif;
     font-size: 12px;
     font-style: normal;
     font-weight: 700;
-    line-height: normal;
+    line-height: 1.5em;
     margin-top: 10px;
 }
 
@@ -259,7 +260,7 @@ font-family: ibm-plex-mono, sans-serif;
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
-    line-height: normal;
+    line-height: 1.5em;
     margin-bottom: 25px;
 }
 
@@ -280,7 +281,7 @@ font-family: neue-haas-unica, sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: normal;
+    line-height: 1.5em;
 }
 
 
@@ -403,7 +404,7 @@ font-family: neue-haas-unica, sans-serif;
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
-    line-height: normal;
+    line-height: 1.5em;
 }
 
 .description {
